@@ -472,6 +472,12 @@ footer
     background: url("images/footer.png");
     background-size: cover;
     height: 210px;
+    padding-top: 33px;
+
+}
+footer .inner-container {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 @media (min-width:320px) and (max-width:767px)
 {
@@ -575,7 +581,7 @@ footer .second-paragraph hr
 {
     footer .second-paragraph hr
 {
-   width: 320px;
+   width: 315px;
    text-align: center;
    margin: 0 auto;
    border: 1px solid #a1a0a0;
