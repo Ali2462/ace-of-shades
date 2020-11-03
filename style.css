@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: Open Sans;
 
 }
 /*body {
@@ -191,7 +191,7 @@
 }
 .main-container .banner .box ul{
 
-    padding-top: 14px;
+    /*padding-top: 14px;*/
     color: white;
     /* padding-left: 40px; */
 }
@@ -208,6 +208,7 @@
     /* padding-top: 30px; */
     font-size: 32px;
     color: white;
+    margin-bottom: 1s0px;
     /* padding-left: 40px; */
 }
 @media (min-width:320px) and (max-width:767px)
@@ -230,7 +231,7 @@
 .main-container .banner .box ul li{
     list-style: none;
     font-size: 16px;
-    margin-bottom: 10px;
+   /* margin-bottom: 10px;*/
   }
 @media (min-width:320px) and (max-width:767px)
 {
@@ -470,12 +471,12 @@ margin-bottom: 10px;
     margin-bottom: 25px;
 }
 .main-container .middle-container .content-3 .p-2 a {
-    text-decoration: none;
-    color:red; 
+    /*text-decoration: none;*/
+    color:#bf1e2e; 
 }
 .main-container .middle-container .content-3 .p-3 a {
-    text-decoration: none;
-    color:red; 
+    /*text-decoration: none;*/
+    color:#bf1e2e; 
 }
 .main-container .middle-container .content-3 .p-2
 {
@@ -513,7 +514,7 @@ footer div.inner-container ul.first-menu li  {
     list-style: none;
 }
 footer div.inner-container ul.first-menu h4 {
-    color: grey;
+    color: #bcbaba;
     font-size: 15px;
 }
 footer div.inner-container ul.second-menu li  {
@@ -525,24 +526,35 @@ footer div.inner-container ul.second-menu li a {
     font-size: 10px;
 }
 footer div.inner-container ul.second-menu h4 {
-    color: grey;
+    color: #bcbaba;
     font-size: 15px;
+}
+footer div.inner-container ul.second-menu hr {
+    color:#bcbaba;
+
+
 }
 footer div.inner-container div.second-paragraph div.book-icons {
     margin-bottom: 20px;
 }
 footer div.inner-container div.second-paragraph div.book-icons i {
     font-size: 30px;
-    color: grey;
+    color: #bcbaba;
+    padding-right: 8px;
 }
 footer div.inner-container div.second-paragraph div.book-icons a {
     color: white;
     font-weight: bold;
     text-decoration: none;
 }
+footer div.inner-container div.second-paragraph div.icons4 {
+    padding:20px;
+    padding-left: 0px;
+}
 footer div.inner-container div.second-paragraph div.icons4 i {
     font-size: 30px;
-    color: grey;
+    color: #bcbaba;
+    padding-right: 8px;
 }
 footer div.inner-container div.second-paragraph div.icons4 a {
     color: white;
@@ -550,14 +562,14 @@ footer div.inner-container div.second-paragraph div.icons4 a {
     text-decoration: none;
 }
 footer div.inner-container div.third-paragraph {
-    align-self: center;
+    align-self: end;
 }
 footer div.inner-container div.third-paragraph p{
     color: white;
     font-size: 10px;
 }
 footer div.inner-container div.third-paragraph p span {
-    color: grey;
+    color: #bcbaba;
 }
 /*footer {
     background: url("images/footer div.inner-container.png");
