@@ -416,9 +416,13 @@ margin-bottom: 10px;
 }
 .main-container .middle-container .main-content .content-1 .phone-icons i{
     font-size: 25px;
-  color:#939292;
-  margin-right: 13px;
-}.main-container .middle-container .main-content .content-1 .phone-icons a {
+    color:#939292;
+    margin-right: 13px;
+}
+.main-container .middle-container .main-content .content-1 .phone-icons a span {
+     color:#939292;
+}
+.main-container .middle-container .main-content .content-1 .phone-icons a {
     text-decoration: none;
     color:#c32c3b;
 }
